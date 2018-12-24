@@ -16,12 +16,11 @@ Siamese networks for one-shot image recognition.
 ## Results
 - after 55 epochs of training on a laptop GPU: OA: 99.72, Mean F1-score: 0.992 (on separate test set)
 
-Evolution of OA on validation set:
-![](figures/val_OA.png?raw=true "")
-
-Example of results on test set:
-True label: predicted similarity (float in [0, 1])
+Example of results on test set:<br/>
+true label (0 or 1): predicted similarity (float in [0, 1])
 ![](figures/sanity_check_step5_plot0_top.png?raw=true "")
 ![](figures/sanity_check_step5_plot0_bottom.png?raw=true "")
 
+Evolution of OA on validation set:
+![](figures/val_OA.png?raw=true "")
 
